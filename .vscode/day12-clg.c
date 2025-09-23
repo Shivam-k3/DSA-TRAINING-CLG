@@ -34,7 +34,7 @@
 //     return 0;
 // }
 
-// //create a game to guess a number between 1 to 100 with certain number of attempts
+// // //create a game to guess a number between 1 to 100 with certain number of attempts
 #include <stdio.h>
 #include <stdlib.h> 
 #include <time.h>
@@ -68,3 +68,24 @@ int main()
     }
     return 0;
 }
+
+// // // wap a to find give year is leap year or not using function
+// #include <stdio.h>
+// int isLeapYear(int year)
+// {
+//     if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//         return 1; 
+//     else
+//         return 0; 
+// }
+// int main()
+// {
+//     int year;
+//     printf("enter a year: ");
+//     scanf("%d", &year); 
+//     if(isLeapYear(year))
+//         printf("%d is a leap year.\n", year);
+//     else
+//         printf("%d is not a leap year.\n", year);
+
+// }
